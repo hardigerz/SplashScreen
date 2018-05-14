@@ -14,14 +14,8 @@
     <ImageView
         android:id="@+id/logo"
         android:layout_width="wrap_content"
-    <action android:name="android.intent.action.MAIN" />
-
-    <category android:name="android.intent.category.LAUNCHER" />
-
-    android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="108dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         android:src="@drawable/logo" />
 
     <ProgressBar
